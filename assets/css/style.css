@@ -1,0 +1,363 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  
+}
+
+/* BODY */
+body {
+  background-color: #2d0370;
+  color: #333;
+}
+
+/* HEADER + NAVBAR */
+header {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+  padding: 15px 50px;
+}
+
+ nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  
+}
+
+/* LOGO */
+.logo {
+  color: rgb(117, 28, 114);
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* NAV LINKS */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  color: #00adb5;
+}
+
+/* PRESENTATION SECTION */
+.presentation-section {
+ background: linear-gradient(to right, #912aff, #162c51);
+  height: auto; /* Laissez le contenu définir la hauteur */
+  padding: 100px 0;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.presentation-content {  
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+/* IMAGE */
+.profile-img {
+  width: 220px;
+  border-radius: 50%;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.cv-link {
+  font-size: 70px;
+}
+/* TEXTE */
+.presentation-text h1 {
+  font-size: 30px;
+}
+
+.presentation-text span {
+  color: #047c83;
+}
+
+.presentation-text h2 {
+  margin: 10px 0;
+  font-weight: normal;
+}
+
+.presentation-text p {
+  margin: 15px 0;
+  max-width: 400px;
+}
+
+/* BOUTON */
+.btn {
+  display: inline-block;
+  padding: 10px 25px;
+  background-color: #5900c5;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #5900c5;
+}
+/* competences */
+#competences {
+  padding: 80px 50px;
+  background-color: #ffffff;
+
+
+}
+#competences h2 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 50px;
+  color: #111;
+}
+
+.competences-container {
+  max-width: 800px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+/* items */
+.competence-item h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* BARRE */
+.progress-bar {
+  background-color: #150c79f7;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 12px;
+}
+
+/* PROGRESSION */
+.progress {
+  height: 100%;
+  background-color: #00adb5;
+  border-radius: 10px;
+  transition: width 1s ease-in-out;
+}
+
+/* POURCENTAGE */
+.pourcentage {
+  display: block;
+  margin-top: 6px;
+  font-size: 14px;
+  color: #555;
+  text-align: right;  
+}
+/* projets */
+/* Style de la section */
+#projets {
+    padding: 50px 20px;
+    background-color: #f8f9fa; /* Fond gris très clair */
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.section-title {
+    text-align: center;
+    color: #3b42f3; /* Bleu comme sur ton image */
+    margin-bottom: 40px;
+    font-size: 2rem;
+}
+
+/* La grille pour aligner les cartes */
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* 3 colonnes auto */
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Style de la Carte */
+.card {
+    background: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.05); /* Ombre légère */
+    border: 1px solid #eee;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px); /* Effet au survol */
+}
+
+/* Zone pour l'image (grise par défaut) */
+.card-image {
+    height: 180px;
+    background-color: #f4f4f4; /* Simule l'image vide de ta capture */
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-content h3 {
+    margin-top: 0;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.projet-description {
+    font-size: 0.9rem;
+    color: #666;
+    line-height: 1.5;
+}
+
+.projet-details {
+    list-style: none;
+    padding: 0;
+    font-size: 0.85rem;
+    color: #444;
+}
+
+/* Tags (badges bleus) */
+.projet-tags {
+    margin: 15px 0;
+}
+
+.projet-tags span {
+    background: #eef2ff;
+    color: #3b42f3;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: bold;
+    margin-right: 5px;
+    display: inline-block;
+}
+
+/* Lien "Voir le projet" */
+.btn-projet {
+    display: inline-block;
+    text-decoration: none;
+    color: #3b42f3;
+    font-weight: bold;
+    font-size: 0.9rem;
+    margin-top: 10px;
+}
+/* CONTACT */
+.contact {
+ background-color: #188e36;
+    padding: 4rem 2rem;
+    color: var(--color-white);
+}
+
+.contact {
+    max-width: 600px;
+    margin: 0 auto;
+}  
+ 
+
+/* SECTION FORMATION */
+#formation {
+  padding: 80px 50px;
+  background-color: #f9f9f9;
+}
+
+#formation h2 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 50px;
+  color: #111;
+}
+
+.formation-list {
+  max-width: 800px;
+  margin: auto;
+}
+
+.formation-item {
+  background-color: white;
+  padding: 20px;
+  border-left: 4px solid #00adb5;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.formation-item h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.formation-item .ecole {
+  color: #666;
+  font-size: 14px;
+}
+
+.formation-item .annee {
+  color: #999;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+/* FORMULAIRE CONTACT */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: #00adb5;
+  box-shadow: 0 0 5px rgba(6, 218, 229, 0.922);
+}
+
+.btn-send {
+  padding: 12px 30px;
+  background-color: #5900c5;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-send:hover {
+  background-color: #6a11cb;
+  transform: scale(1.02);
+}
+
+/* FOOTER */
+footer {
+  background-color: #333333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
