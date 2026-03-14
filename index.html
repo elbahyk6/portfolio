@@ -3,154 +3,206 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Bahy Khadija — Portfolio</title>
     <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
+
+    <!-- NAVBAR -->
     <header>
         <nav>
-               <div class="logo">el bahy khadija </div>
-            <ul class = "nav-links""">
-               <li><a href="index.html">Accueil</a></li>
-                <li><a href="#competences">Compétences</a></li>
-                <li><a href="projects.html">Projets</a></li>
-                <li><a href="#formation">Formation</a></li>
-                <li><a href="contact.html">Contact</a></li>
+            <div class="logo">EL BAHY <span>Khadija</span></div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#competences">Skills</a></li>
+                <li><a href="#projets">Projects</a></li>
+                <li><a href="#formation">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
-            <<</div>
-            </nav>
+        </nav>
     </header>
 
-
-
+    <!-- HERO -->
     <section id="presentation" class="presentation-section">
         <div class="hero-content">
-                <img src="assets/image/PIC.png" alt="Photo de profil" class="profile-img">
-                <div class="hero-text">
-                    <h1>Hi i'm  <span>el bahy khadija </span></h1>
-                    <h2> crafting solutions with code. seeking for an internship </h2>
-                    <p>Motivated third-year Computer Science student with hands-on experience in Java, C, Python, and SQL. Possesses a strong understanding of algorithms, database systems, and core software development concepts. Passionate about emerging technologies, enterprise solutions, and cloud platforms. Looking for an internship opportunity at Oracle to contribute to real-world projects while strengthening professional expertise.</p>
-                    <a href="contact.html" class="btn">Me contacter</a>
-                    <li><a href="assets/cv.pdf"" target="_blank">CV</a></li>
-
+            <img src="image/PIC.jpg" alt="Photo de profil" class="profile-img">
+            <div class="hero-text">
+                <p class="hero-greeting">👋 Hello, I'm</p>
+                <h1>El Bahy <span>Khadija</span></h1>
+                <h2>Computer Science Student · Seeking Internship</h2>
+                <p>
+                    Third-year Computer Science student at FST Settat with hands-on experience in
+                    Java, C, Python, and SQL. Passionate about software development, database systems,
+                    and cloud technologies.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn">Contact Me</a>
+                    <a href="assets/cv.pdf" target="_blank" class="btn btn-outline">Download CV</a>
                 </div>
-            </div>
-        </section>
-  <!-- SECTION COMPÉTENCES -->
-    <section id="competences">
-        <h2>KEY COMPETENCIES</h2>
-         <div class="competences-container">
-            <div class="competence-item">
-                <h3> Programming: Java, C </h3>
-                <div class="progress-bar">
-                    <div class="progress" style="width: 90%"></div>
-                </div>
-                <<a class="pourcentage">90%</a>
-            </div>
-            <div class="competence-item">
-                <h3> <h3>DOCKER (CONTAINERSATION ) ,SQL </h3>
-
-                <div class="progress-bar">
-                    <div class="progress" style="width: 85%"></div>
-                </div>
-                <a class="pourcentage">85%</a>
-            </div>
-            <div class="competence-item">
-                <h3>Adaptability and flexibility</h3>
-                <div class="progress-bar">
-                    <div class="progress" style="width: 80%"></div>
-                </div>
-                <span class="pourcentage">80%</span>
-            </div>
-            <div class="competence-item">
-                <h3>Python </h3>
-                <div class="progress-bar">
-                    <div class="progress" style="width: 75%"></div>
-                </div>
-                <span class="pourcentage">75%</span>
-            </div>
-
-              <div class="competence-item">
-                <h3>Logical and analytical thinking </h3>
-                <div class="progress-bar">
-                    <div class="progress" style="width: 75%"></div>
-                </div>
-                <span class="pourcentage">75%</span>
             </div>
         </div>
     </section>
-       
-<!-- SECTION PROJETS -->
-<section id="projets">
-    <h2 class="section-title">My Projets</h2>
-    
-    <div class="projects-container">
-        <article class="card">
-            <div class="card-image"></div> <div class="card-content">
-                <h3>Database Management System (MySQL) :</h3>
-                <p class="projet-description">
-                Developed a MySQL-based database management system to handle structured data efficiently. Designed relational schemas, implemented tables with constraints, and wrote optimized SQL queries for CRUD operations. Focused on data integrity, normalization, and performance.
-                </p>
-                <ul class="projet-details">
-                    <li>✓ Creation of optimized Dockerfiles  </li>
 
-                    <li> ✓ Management of volumes and networks</li> 
-                </ul>
-                <div class="projet-tags">
-                    <span>Docker</span>
-                    <span>MySQL</span>
+    <!-- SKILLS -->
+    <section id="competences">
+        <h2 class="section-title">Key Skills</h2>
+        <div class="skills-grid">
+
+            <div class="skill-category">
+                <h3>💻 Programming</h3>
+                <div class="tags">
+                    <span>Java</span>
+                    <span>C</span>
+                    <span>Python</span>
+                    <span>JavaScript</span>
+                    <span>HTML / CSS</span>
                 </div>
-                <a href="#" class="btn-projet">see the projet →</a>
             </div>
-        </article>
 
-        <article class="card">
-            <div class="card-image"></div>
-            <div class="card-content">
-                <h3>Management System (MySQL)</h3>
-                <p class="projet-description">
-                  Designed and implemented relational databases using MySQL for various academic projects.
-                </p>
-                <ul class="projet-details">
-                    <li>✓ Development of complex SQL queries</li>
-                    <li>✓ Use of Docker Compose for multi-container applications</li>
-                </ul>
-                <div class="projet-tags">
+            <div class="skill-category">
+                <h3>🗄️ Database</h3>
+                <div class="tags">
                     <span>MySQL</span>
                     <span>SQL</span>
                 </div>
-                <a href="#" class="btn-projet">see the projet →</a>
             </div>
-        </article>
-    </div>
-</section>
 
+            <div class="skill-category">
+                <h3>🛠️ Tools & DevOps</h3>
+                <div class="tags">
+                    <span>Docker</span>
+                    <span>Docker Compose</span>
+                    <span>Git</span>
+                    <span>GitHub</span>
+                    <span>VS Code</span>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h3>🤝 Soft Skills</h3>
+                <div class="tags">
+                    <span>Adaptability</span>
+                    <span>Analytical Thinking</span>
+                    <span>Team Work</span>
+                    <span>Problem Solving</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projets">
+        <h2 class="section-title">My Projects</h2>
+        <div class="projects-container">
+
+            <!-- Projet 1 -->
+            <article class="card">
+                <div class="card-color card-color-1"></div>
+                <div class="card-content">
+                    <h3>📚 Book Blog</h3>
+                    <p class="projet-description">
+                        A front-end web application to browse a book catalogue, view details,
+                        and add ratings and comments. Built with HTML5, CSS3, Bootstrap and JavaScript.
+                    </p>
+                    <ul class="projet-details">
+                        <li>✓ Dynamic DOM manipulation with JavaScript</li>
+                        <li>✓ Fetch API to load JSON data asynchronously</li>
+                        <li>✓ Responsive design with Bootstrap 5</li>
+                    </ul>
+                    <div class="projet-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>Bootstrap</span>
+                    </div>
+                    <a href="https://elbahyk6.github.io/book-site/" target="_blank" class="btn-projet">See the project →</a>
+                </div>
+            </article>
+
+            <!-- Projet 2 -->
+            <article class="card">
+                <div class="card-color card-color-2"></div>
+                <div class="card-content">
+                    <h3>🗃️ Database Management System</h3>
+                    <p class="projet-description">
+                        MySQL-based database management system with relational schemas,
+                        optimized SQL queries and Docker containerization.
+                    </p>
+                    <ul class="projet-details">
+                        <li>✓ Relational schema design and normalization</li>
+                        <li>✓ Optimized Dockerfiles and container management</li>
+                        <li>✓ CRUD operations with data integrity</li>
+                    </ul>
+                    <div class="projet-tags">
+                        <span>MySQL</span>
+                        <span>Docker</span>
+                        <span>SQL</span>
+                    </div>
+                    <a href="#" class="btn-projet">See the project →</a>
+                </div>
+            </article>
+
+            <!-- Projet 3 -->
+            <article class="card">
+                <div class="card-color card-color-3"></div>
+                <div class="card-content">
+                    <h3>🐳 Docker Compose App</h3>
+                    <p class="projet-description">
+                        Multi-container application using Docker Compose with volume
+                        and network management for scalable deployments.
+                    </p>
+                    <ul class="projet-details">
+                        <li>✓ Docker Compose multi-service setup</li>
+                        <li>✓ Volume and network configuration</li>
+                        <li>✓ Container orchestration</li>
+                    </ul>
+                    <div class="projet-tags">
+                        <span>Docker</span>
+                        <span>Docker Compose</span>
+                    </div>
+                    <a href="#" class="btn-projet">See the project →</a>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- EDUCATION -->
     <section id="formation">
-           <h2>EDUCATION</h2>
+        <h2 class="section-title">Education</h2>
         <div class="formation-list">
             <article class="formation-item">
-                <h3>Bachelor’s Degree (LST) in Computer Engineering</h3>
-                <p class="ecole">FST Settat | LST GI</p>
-                <p class="annee">2022-2026</p>
+                <div class="formation-left">
+                    <span class="formation-icon">🎓</span>
+                </div>
+                <div class="formation-right">
+                    <h3>Bachelor's Degree (LST) in Computer Engineering</h3>
+                    <p class="ecole">FST Settat — LST GI</p>
+                    <p class="annee">2022 — 2026</p>
+                </div>
             </article>
         </div>
-         
-    <link rel="about" href="about.html">
     </section>
 
+    <!-- CONTACT -->
     <section id="contact">
-              <h2>Me Contacter</h2>
-        <form class="contact-form">
-            <input type="text" placeholder="Votre nom" required>
-            <input type="email" placeholder="Votre email" required>
-            <textarea placeholder="Votre message" rows="5" required></textarea>
-            <button type="submit" class="btn-send">Envoyer</button>
-        </form>
-         
-    <link rel="about" href="about.html">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="contact-wrapper">
+            <form class="contact-form">
+                <input type="text" placeholder="Your name" required>
+                <input type="email" placeholder="Your email" required>
+                <textarea placeholder="Your message" rows="5" required></textarea>
+                <button type="submit" class="btn-send">Send Message</button>
+            </form>
+        </div>
     </section>
 
-    <footer>   <p>&copy; 2026 el bahy khadija . all rights reserved .</p>
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2026 El Bahy Khadija — All rights reserved</p>
     </footer>
+
 </body>
 </html>
